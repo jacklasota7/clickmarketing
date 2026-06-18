@@ -1,18 +1,17 @@
-# Click Marketing — Website
+# Click Marketing Website
 
 Marketing and web design agency site for Click, targeting Pittsburgh small businesses.
-Single page layout built with vanilla HTML, CSS, and JavaScript. No frameworks, no build tools, no dependencies.
-
+Single page layout built with vanilla HTML, CSS, and JavaScript.
 ---
 
 ## Project Structure
 
 ```
 /
-├── index.html       # All page content — single-page layout with anchor-linked sections
-├── style.css        # All styles — design tokens, layout, components, responsive breakpoints
-├── script.js        # Interactive behavior — rotating hero text, service tabs, mobile nav
-├── robots.txt       # Crawler permissions — SEO and GEO (AI crawler) access rules
+├── index.html       # Page content: single-page layout with anchor-linked sections
+├── style.css        # Styling: design tokens, layout, components, responsive breakpoints
+├── script.js        # Interactive behavior: rotating hero text, service tabs, mobile nav
+├── robots.txt       # Crawler permissions: SEO and GEO (AI crawler) access rules
 ├── sitemap.xml      # Single-URL sitemap pointing to site root
 └── settings.json    # VS Code Live Server config (dev only — port 5501)
 ```
@@ -49,15 +48,15 @@ The site is a single scrollable page with six anchor-linked sections:
 
 The site is built to be found by both traditional search engines and AI tools (ChatGPT, Claude, Perplexity, Gemini).
 
-- **`<title>` and `<meta name="description">`** — primary on-page SEO signals
-- **Open Graph tags** — controls link previews on social and messaging apps
-- **LocalBusiness JSON-LD** — structured data in `<head>` that tells search engines and AI exactly what the business does, where it's located, who runs it, and what packages are offered
-- **`robots.txt`** — explicitly allows major AI crawlers (`GPTBot`, `ClaudeBot`, `PerplexityBot`, `Google-Extended`) in addition to the wildcard `Allow: /`
-- **`sitemap.xml`** — single entry pointing crawlers to the root URL; `robots.txt` references it
+- **`<title>` and `<meta name="description">`** = primary on-page SEO signals
+- **Open Graph tags** = controls link previews on social and messaging apps
+- **LocalBusiness JSON-LD** = structured data in `<head>` that tells search engines and AI exactly what the business does, where it's located, who runs it, and what packages are offered
+- **`robots.txt`** = explicitly allows major AI crawlers (`GPTBot`, `ClaudeBot`, `PerplexityBot`, `Google-Extended`) in addition to the wildcard `Allow: /`
+- **`sitemap.xml`** = single entry pointing crawlers to the root URL; `robots.txt` references it
 
 ---
 
-## To-Do Before Launch
+## Placeholders
 
 These are currently set to placeholder values because I haven't set-up business contacts/domain:
 
@@ -70,7 +69,10 @@ These are currently set to placeholder values because I haven't set-up business 
 
 ---
 
-## Adding Portfolio Cards
+## What's next
 
-The Work section will be expanded. Currently has one card as a placeholder until I get more business. Commented marking where to add more websites:
+- The Work section will be expanded. Currently has one card as a placeholder until I get more websites launched. Commented marking shows where to add more websites / duplicate cards.
+- Footer will be added below the contact section to indicate the end of the page. Furthermore, it will contain links to all sections and a privacy policy.
+- API integration for bookings and payments (Stripe).
+- More pages for better SEO, GEO. 
 ---
