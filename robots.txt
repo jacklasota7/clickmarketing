@@ -1,0 +1,25 @@
+# This file controls which AI crawlers can access the site
+# Lives at the site root
+
+# Rule for all crawlers
+User-agent: *
+Allow: / 
+
+# Welcoming AI Agents (GEO!)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Pointing crawlers to the sitemap 
+Sitemap: https://clickmarketing.example/sitemap.xml
