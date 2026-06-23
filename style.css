@@ -733,6 +733,73 @@ body {
   color: var(--color-text-muted);
   line-height: 1.6;
 }
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: var(--space-lg);
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-lg);
+}
+
+.footer__logo {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-accent);
+  display: inline-block;
+  margin-bottom: var(--space-sm);
+}
+
+.footer__tagline {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  max-width: 40ch;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.footer__nav a:hover {
+  color: var(--color-accent);
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  color: var(--color-text-muted);
+}
+
+.footer__contact a:hover {
+  color: var(--color-accent);
+}
+
+.footer__bottom {
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-md) 0;
+}
+
+.footer__bottom p {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+/* Footer responsive — stacks the three columns on small screens */
+@media (max-width: 768px) {
+  .footer__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
 
 /* RESPONSIVE - For tablet sizes  */
 /* At the bottom of the css file to override previous deskrop screen sizes. */
